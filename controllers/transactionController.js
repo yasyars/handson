@@ -24,7 +24,7 @@ app.post("/transactions", (req, res) => {
 
 
 //Uncomment below code if you want to test get customer. NOTE: this is not the right separation of concerns since getcustomer is handled in transcationController.
-//Below code intended just for validating our transfer logic, not demonstrate how layered architecture works
+//Below code intended just for validating our transfer logic, not demonstrate how layered architecture should be. This is not a good example to combine customer handler and transaction in the same file transactionController.
 //Don't forget to uncomment the import part
 // app.get("/customers/:id", (req, res) => {
 //   const customerId = req.params.id;
