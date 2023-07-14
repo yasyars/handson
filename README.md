@@ -7,10 +7,10 @@
 
 # How to Setup
 - clone repo ini
-- run command `npm install`
+- run command `npm install` dari folder handson
 
 # How to Run
-- run command `node controllers/transactionController.js`
+- run command dari folder handson `node controllers/transactionController.js`
 
 # How to Test
 Test it using req body of raw json object
